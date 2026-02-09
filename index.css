@@ -2,11 +2,12 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0; 
+  text-align: center;
 }
 
 nav {
   background-color:#34d399; 
-  padding: 20px 40px;
+  padding: 20px 100px;
   display: flex;
   justify-content:right;
   align-items: center;
@@ -24,7 +25,6 @@ nav ul {
 nav li a {
   color: white;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -38,3 +38,72 @@ nav li a:hover {
    border-bottom-color: white;  
 }
 
+.welcome {
+  background-image: url('backgroundtech.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typingclass{
+    display: inline-block;
+}
+
+.typing {
+  font-size: 60px;
+  color: white;
+  white-space: nowrap;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px solid white; /*cursor*/
+  animation: 
+    typing 2s steps(49),
+    cursor .4s step-end infinite alternate;
+}
+
+/*typing effect*/
+@keyframes typing {
+  from { width: 0; }
+}
+
+/*blinking cursor*/
+@keyframes cursor {
+  50% {  border-color: transparent; }
+}
+
+.me {
+    display: flex; 
+    align-items: center; 
+    gap: 40px; 
+    padding: 85px 100px;
+    background-color: #25292e;
+}
+
+img {
+  width: 300px;
+  height: 300px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  display: block;
+  margin-left: 40px; 
+}
+
+.me h1 {
+  color:white;
+  font-weight: bold; 
+  font-size: 67px;
+  text-align: left;
+  margin: 0 0 10px 0;
+}
+
+.me p {
+  color:white;
+  font-size: 24px;
+  text-align: justify;
+  line-height: 1.6;
+  margin: 10px 0; 
+}
