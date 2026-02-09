@@ -11,36 +11,43 @@ html {
 
 /*Nav bar section*/
     nav {
-    background-color:#34d399; 
-    padding: 20px 100px;
-    display: flex;
-    justify-content:right;
-    align-items: center;
+        background-color:#34d399; 
+        padding: 10px 100px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
     }
 
     nav ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
     }
 
+    nav img {
+        width: auto; 
+        height: 36px;
+        object-fit: contain;
+    }
+
+
     nav li a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border-bottom: 2px solid transparent; 
-    padding-bottom: 3px;
-    transition: border-bottom-color 0.3s ease;
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-bottom: 2px solid transparent; 
+        padding-bottom: 3px;
+        transition: border-bottom-color 0.3s ease;
     }
 
     /*Underline effect*/
     nav li a:hover {
-    border-bottom-color: white;  
+        border-bottom-color: white;  
     }
 /*End of nav bar section*/
 
@@ -267,11 +274,11 @@ html {
     }
 
     .contact p {
-    color: #111827;
-    font-size: 20px;
-    text-align: center;
-    line-height: 1.7;
-    margin-left: 40px; 
+        color: #111827;
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.7;
+        margin-left: 40px; 
     }
 
     .contactainer {
