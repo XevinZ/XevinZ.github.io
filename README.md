@@ -3,7 +3,7 @@ Kevin Aaron A. Salazar
 <h1>Degree Program</h1>
 BS Computer Science
 <h1>Live Website</h1>
-<a href="https://xevinz.github.io/ target="_blank">
+<a href="https://xevinz.github.io/" target="_blank">
   <span>View</span>
 </a>
 <h1>Steps on how to create a github page</h1>
